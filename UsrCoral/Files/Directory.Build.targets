@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/UsrCoral/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/UsrCoral/Data/**" />
+		<Compile Remove="$(PkgPath)/UsrCoral/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/UsrCoral/Schemas\**" />
+		<Compile Remove="$(PkgPath)/UsrCoral/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCoral/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCoral/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCoral/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCoral/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCoral/Resources/**" />
+		<None Remove="$(PkgPath)/UsrCoral/Assemblies/**" />
+		<None Remove="$(PkgPath)/UsrCoral/Data/**" />
+		<None Remove="$(PkgPath)/UsrCoral/SqlScripts/**" />
+		<None Remove="$(PkgPath)/UsrCoral/Schemas/**" />
+		<None Remove="$(PkgPath)/UsrCoral/Resources/**" />
+  </ItemGroup>
+</Project>

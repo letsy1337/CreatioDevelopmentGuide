@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "638db810-6702-44ec-b172-80752fe6d670",
+    "Name": "UsrCoral",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrCoral.csproj",
+    "DependsOn": []
+  }
+}
