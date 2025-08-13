@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e19b769-31d9-4bbe-a16f-57086ef066c6",
+    "Name": "UsrCoralRelatedPage",
+    "ModifiedOnUtc": "\/Date(1755081937000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Coral (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "219c7759-fbe1-4e36-a15c-4dbd11e9c281"
+= MetaData.Schema.A2 "UsrCoral_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["16f03adf-5c2d-4ccb-b237-04c4c288f39b","fafc0775-c514-4e80-8ee9-18650197506a","e80a3bff-6948-4f97-a76d-b2eb550f022c","d92ec920-0f8f-48b1-a202-5b3068aad250"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

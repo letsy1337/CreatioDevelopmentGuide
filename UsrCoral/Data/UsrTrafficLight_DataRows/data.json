@@ -47,22 +47,6 @@
           "Value": ""
         }
       ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "Value": "cbc511f3-143f-4056-8129-332401288698"
-        },
-        {
-          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
-          "Value": "\/Date(1755076868537+0300)\/"
-        },
-        {
-          "SchemaColumnUId": "f0c931b8-f2cc-7e67-530e-28c0fc5c08eb",
-          "Value": ""
-        }
-      ]
     }
   ]
 }

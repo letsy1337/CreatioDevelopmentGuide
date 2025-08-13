@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0ad84886-5c3f-4241-8435-e5649be4c77f",
+    "Name": "UsrCoral_Detail",
+    "ModifiedOnUtc": "\/Date(1755081937000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Coral detail",
+    "DependsOn": []
+  }
+}
