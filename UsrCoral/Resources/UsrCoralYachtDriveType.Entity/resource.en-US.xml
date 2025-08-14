@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Coral Yacht Drive Type" />
+			<Item Name="Columns.UsrColor.Caption" Value="Color" />
 		</Items>
 	</Group>
 </Resources>
