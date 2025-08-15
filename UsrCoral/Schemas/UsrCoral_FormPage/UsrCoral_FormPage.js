@@ -402,7 +402,7 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "Comment",
+				"name": "ManagerEmail",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -410,15 +410,15 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"row": 4,
 						"rowSpan": 1
 					},
-					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_UsrComment_bufaibd",
+					"type": "crt.EmailInput",
+					"label": "$Resources.Strings.PDS_UsrManagerEmail_qx3dhom",
+					"control": "$PDS_UsrManagerEmail_qx3dhom",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrComment_bufaibd",
-					"multiline": false,
-					"visible": false,
-					"readonly": false,
 					"placeholder": "",
-					"tooltip": ""
+					"tooltip": "",
+					"needHandleSave": false,
+					"caption": "#ResourceString(ManagerEmail_caption)#",
+					"readonly": true
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -446,6 +446,30 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "Comment",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrComment_bufaibd",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrComment_bufaibd",
+					"multiline": false,
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -558,6 +582,11 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.UsrTicketPrice"
 						}
+					},
+					"PDS_UsrManagerEmail_qx3dhom": {
+						"modelConfig": {
+							"path": "PDS.UsrManagerEmail_qx3dhom"
+						}
 					}
 				}
 			},
@@ -590,7 +619,13 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "UsrCoral"
+							"entitySchemaName": "UsrCoral",
+							"attributes": {
+								"UsrManagerEmail_qx3dhom": {
+									"path": "UsrManager.Email",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					}
@@ -607,6 +642,21 @@ define("UsrCoral_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					var price = await request.$context.PDS_UsrPrice_fgs6kur;
 					console.log("Price = " + price);
 					request.$context.PDS_UsrComment_bufaibd = "comment from JS code!";
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			},
+			{
+				request: "crt.HandleViewModelAttributeChangeRequest",
+				/* The custom implementation of the system query handler. */
+				handler: async (request, next) => {
+      				if (request.attributeName === 'PDS_UsrPrice_fgs6kur' || 		        // if price changed
+					   request.attributeName === 'PDS_UsrPassengersCount_2fh09tb' ) { 		// or Passenger count changed
+						var price = await request.$context.PDS_UsrPrice_fgs6kur;
+						var passengers = await request.$context.PDS_UsrPassengersCount_2fh09tb;
+						var ticket_price = price / passengers;
+						request.$context.PDS_UsrTicketPrice_96oj69i = ticket_price;
+					}
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
 				}
