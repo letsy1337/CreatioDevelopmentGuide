@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "66095b29-1c9a-4cea-88d4-e2a6798c48bf",
+    "Name": "UsrCoral_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1755249141000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Coral form page (Business rules)",
+    "DependsOn": []
+  }
+}

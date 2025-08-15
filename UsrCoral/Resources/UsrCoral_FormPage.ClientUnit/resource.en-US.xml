@@ -3,10 +3,13 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Coral form page" />
+			<Item Name="LocalizableStrings.addRecord_4f65cbl_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_4xgn7cb_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_esu002u_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_fvvcwcv_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_gyypm48_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_s0j2bns_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.MoreDataTabContainer_caption.Value" Value="More data" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me" />
 		</Items>
 	</Group>

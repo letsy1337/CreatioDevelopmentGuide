@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "21b3d9d4-9263-4870-9432-68eca2c36b43",
+    "Name": "UsrCoralBusinessRule",
+    "ModifiedOnUtc": "\/Date(1755247820000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Coral (Business rules)",
+    "DependsOn": []
+  }
+}

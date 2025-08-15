@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.ca0461f4-3798-6cc2-3aee-beb44c8579e2.Caption" Value="Show elements: Ticket price, UAH" />
+			<Item Name="AddonConfig.Rules.f795d380-351a-9c31-3a5f-c9160d1ebc24.Caption" Value="Show elements: More Data" />
+			<Item Name="Caption" Value="Coral form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

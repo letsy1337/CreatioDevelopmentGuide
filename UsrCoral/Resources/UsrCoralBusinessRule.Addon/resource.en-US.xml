@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.33ee04b1-9c9e-74a2-d00b-ad17aa911f3c.Caption" Value="ChildRule-586ceffc-8a7b-7904-a9a5-a11fea16a0a0-PopulateValue" />
+			<Item Name="AddonConfig.Rules.51131466-1059-1291-919e-6faa06980a3e.Caption" Value="ChildRule-586ceffc-8a7b-7904-a9a5-a11fea16a0a0-ClearValue" />
+			<Item Name="AddonConfig.Rules.586ceffc-8a7b-7904-a9a5-a11fea16a0a0.Caption" Value="Apply filter: City" />
+			<Item Name="AddonConfig.Rules.bd168199-a454-5454-3f1f-59a619c6e919.Caption" Value="Apply static filter: Manager" />
+			<Item Name="Caption" Value="Coral (Business rules)" />
+		</Items>
+	</Group>
+</Resources>
