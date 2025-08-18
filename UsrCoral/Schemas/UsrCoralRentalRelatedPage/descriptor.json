@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2304f0b1-3cf4-491a-9705-56a73bfcbe17",
+    "Name": "UsrCoralRentalRelatedPage",
+    "ModifiedOnUtc": "\/Date(1755507859000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Coral rental (Page settings)",
+    "DependsOn": []
+  }
+}

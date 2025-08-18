@@ -1,6 +1,9 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCategoryInCoralYacht/UsrCategoryInCoralYacht.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCategoryInCoralYacht/UsrCategoryInCoralYacht.cs')" />
 		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCoral/UsrCoral.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCoral/UsrCoral.cs')" />
+		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCoralRental/UsrCoralRental.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCoralRental/UsrCoralRental.cs')" />
+		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtCategory/UsrCoralYachtCategory.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtCategory/UsrCoralYachtCategory.cs')" />
 		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtDriveType/UsrCoralYachtDriveType.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtDriveType/UsrCoralYachtDriveType.cs')" />
 		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtStatus/UsrCoralYachtStatus.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrCoralYachtStatus/UsrCoralYachtStatus.cs')" />
 		<Compile Include="$(PkgPath)/UsrCoral/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(PkgPath)/UsrCoral/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />

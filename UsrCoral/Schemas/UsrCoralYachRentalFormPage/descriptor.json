@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ec3ffd52-6665-41f0-a882-36851e918f19",
+    "Name": "UsrCoralYachRentalFormPage",
+    "ModifiedOnUtc": "\/Date(1755507738000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Coral rental form page"
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4979e291-642d-4445-a117-8291ee857a48",
+    "Name": "UsrCoralYachtCategory",
+    "ModifiedOnUtc": "\/Date(1755511006000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Coral yacht category",
+    "DependsOn": []
+  }
+}

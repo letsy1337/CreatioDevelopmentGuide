@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "2304f0b1-3cf4-491a-9705-56a73bfcbe17",
+      "A2": "UsrCoralRentalRelatedPage",
+      "A5": "056cc02f-c115-41bd-a94f-7b969e238f81",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "638db810-6702-44ec-b172-80752fe6d670",
+      "B8": "8.3.0.3031",
+      "AD1": "e7ccda83-630f-4f57-a88f-bdb1b3c7983a",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "bb5ef8af-01a2-c064-fef9-0fb335c9d638",
+      "PageSchemaUId": "ec3ffd52-6665-41f0-a882-36851e918f19",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}

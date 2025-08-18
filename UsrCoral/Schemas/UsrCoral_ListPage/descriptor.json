@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "361c5b52-2973-43bb-92f7-7928c183eb85",
     "Name": "UsrCoral_ListPage",
-    "ModifiedOnUtc": "\/Date(1755162007000)\/",
+    "ModifiedOnUtc": "\/Date(1755506522000)\/",
     "Parent": {
       "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
       "Name": "ListPageV3Template"
