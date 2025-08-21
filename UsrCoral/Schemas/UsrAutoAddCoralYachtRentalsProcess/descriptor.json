@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "bf56cd4b-fd7d-4ea3-8050-bc8ba60026f7",
+    "Name": "UsrAutoAddCoralYachtRentalsProcess",
+    "ModifiedOnUtc": "\/Date(1755765991000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto add coral yacht rentals process",
+    "DependsOn": []
+  }
+}

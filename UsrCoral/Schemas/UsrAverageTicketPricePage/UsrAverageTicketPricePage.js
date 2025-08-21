@@ -38,7 +38,7 @@ define("UsrAverageTicketPricePage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"label": "$Resources.Strings.PageParameters_UsrTextParameter1_14x6vm8",
 					"labelPosition": "auto",
 					"control": "$PageParameters_UsrTextParameter1_14x6vm8",
-					"multiline": false,
+					"multiline": true,
 					"visible": true,
 					"readonly": true,
 					"placeholder": "",
