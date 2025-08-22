@@ -16,8 +16,12 @@
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &gt; 0" />
 			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="N == 0" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="n = n - 1" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="set Yacht id from insert signal" />
+			<Item Name="BaseElements.FormulaTask3.Caption" Value="set Yacht id from update signal" />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Yacht added" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
+			<Item Name="BaseElements.StartSignal2.Caption" Value="Yacht edited" />
+			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="Caption" Value="Auto add coral yacht rentals process" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
@@ -25,6 +29,7 @@
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
 			<Item Name="Parameters.NParameter.Caption" Value="N" />
 			<Item Name="Parameters.NParameter.DisplayValue" Value="3" />
+			<Item Name="Parameters.YachtId.Caption" Value="Yacht id" />
 		</Items>
 	</Group>
 </Resources>
